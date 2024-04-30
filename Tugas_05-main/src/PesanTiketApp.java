@@ -99,7 +99,7 @@ public class PesanTiketApp {
                         Tiket tiketRgFestival = new Festival();
 
                         /** Instansiasi Pemesanan */
-                        Pemesanan pesan3 = new Pemesanan(namaPembeli, "Regular", tiketRgFestival, jumlahTiketRgFestival);
+                        Pemesanan pesan3 = new Pemesanan(namaPembeli, "Reguler", tiketRgFestival, jumlahTiketRgFestival);
                         pesan3.cetakNota(); // Memanggil method cetakNota dari class Pemesanan untuk mengeprint nota
                         
                         break;
@@ -114,7 +114,7 @@ public class PesanTiketApp {
                         Tiket tiketRgVIP = new VIP(false);
 
                         /** Instansiasi Pemesanan */
-                        Pemesanan pesan4 = new Pemesanan(namaPembeli, "Regular", tiketRgVIP, jumlahTiketRgVIP);
+                        Pemesanan pesan4 = new Pemesanan(namaPembeli, "Reguler", tiketRgVIP, jumlahTiketRgVIP);
                         pesan4.cetakNota(); // Memanggil method cetakNota dari class Pemesanan untuk mengeprint nota
 
                         break;
@@ -129,7 +129,7 @@ public class PesanTiketApp {
                         Tiket tiketRgVVIP = new VVIP(false);
 
                         /** Instansiasi Pemesanan */
-                        Pemesanan pesan5 = new Pemesanan(namaPembeli, "Regular", tiketRgVVIP, jumlahTiketRgVVIP);
+                        Pemesanan pesan5 = new Pemesanan(namaPembeli, "Reguler", tiketRgVVIP, jumlahTiketRgVVIP);
                         pesan5.cetakNota(); // Memanggil method cetakNota dari class Pemesanan untuk mengeprint nota
 
                         break;
