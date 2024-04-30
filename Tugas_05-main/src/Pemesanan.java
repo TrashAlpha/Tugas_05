@@ -15,8 +15,10 @@ class Pemesanan {
     public void cetakNota() {
         // Do your magic here
 
+        /** Menghitung total harga */
         double totalHarga = tiket.getHarga() * jumlah;
-        
+
+        /** Output untuk nota */
         System.out.println("\n--- Nota Pembelian ---");
         System.out.println("Nama Pembeli: " + this.nama);
         System.out.println("Tahap Pembelian: " + this.tahap);
